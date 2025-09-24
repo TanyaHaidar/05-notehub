@@ -7,7 +7,6 @@ const api = axios.create({
     Authorization: `Bearer ${import.meta.env.VITE_API_TOKEN}`,
   },
 });
-
 export interface FetchNotesParams {
   page?: number;
   search?: string;
